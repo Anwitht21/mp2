@@ -52,6 +52,7 @@ const DetailView: React.FC = () => {
     };
 
     loadPhoto();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [photoId]);
 
   const handlePrevious = () => {
